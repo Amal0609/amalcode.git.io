@@ -1,0 +1,103 @@
+
+*{
+    margin: 0;
+    padding: 0;
+   /* box-sizing: border-box;*/
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+  header{
+    width: 100%; height: 100vh;
+     background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)) ,url('Img/Banking.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+   
+}
+/*nav-----------------------*/
+nav{  background-color: rgba(0,0,0,0.2);
+   color: white; display: flex; justify-content: space-between;
+   align-items: center; text-transform: uppercase;
+  
+}
+#img1{width:auto; height: 10vh; }
+nav .logo{
+    text-align: center; width: 10%;
+    vertical-align: middle;
+}
+nav .menu{
+    width: 30%;display: flex; justify-content: space-around;
+}
+nav .menu a{
+    width:33.33%;text-decoration:none ;
+    font-weight: bold; color: white;
+}
+nav .menu a:hover{color: #00b894;}
+/*nav-----------------------*/
+
+main{
+    width: 100%; height: 89vh;
+    display: flex;flex-direction: column; 
+    justify-content: flex-start; align-items: center;
+    text-align:center ;background-color: whitesmoke;
+  overflow: auto;
+    
+}
+
+
+/*main table*/
+.content-table {
+ width:70%;height:60vh;   
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold; border: 1px solid pink;
+  text-transform: uppercase;
+}
+
+
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-child(even) {
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-child {
+  border-bottom: 2px solid #009879;
+}
+
+
+/*main table*/
+
+#btn{
+  background-color:#009879;
+  font-weight: bold;padding: 10px;
+}
+
+/*footer     ////////////////////////////////////////////////////////////////*/
+footer{
+    background-color: black;
+}
+#foot{
+    color: white; align-content: center;text-align: center;
+}
+
+/* -----alluser--------------------------------------------------------------------------------------------*/

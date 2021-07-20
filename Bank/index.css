@@ -1,0 +1,99 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 19, 2021, 9:57:49 AM
+    Author     : amalp
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+    header{
+    width: 100%; height: 100vh;
+     background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)) ,url('../Bank/Img/Banking.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+    
+}
+/*nav-----------------------*/
+nav {
+   width:100%;height: 10vh;
+   background-color: rgba(0,0,0,0.2);
+   color: white; display: flex; justify-content: space-between;
+   align-items: center; text-transform: uppercase;
+   /*border: 2px solid buttonface;*/
+}
+#img1{width:auto; height: 10vh; }
+nav .logo{
+    text-align: center; width: 10%;
+    vertical-align: middle;
+}
+nav .menu{
+    width: 30%;display: flex; justify-content: space-around;
+}
+nav .menu a{
+    width:33.33%;text-decoration:none ;
+    font-weight: bold; color: white;
+}
+nav .menu a:hover{color: #00b894;}
+/*nav-----------------------*/
+
+main{
+    width: 100%; height: 90vh;
+    display: flex; justify-content: center; align-items: center;
+    text-align:center ;
+    
+}
+section h3{
+    color:white;
+    font-size: 35px; font-weight: 200; letter-spacing: 3px;
+      text-shadow: 1px 1px 2px black;
+}
+section p{
+    font-size: 25px; color: #eee; word-spacing: 2px;
+    margin-bottom: 25; text-shadow:1px 1px 1px black;
+}
+section a{
+    padding: 12px 30px; display: flex; justify-content: space-around;
+    border-radius: 4px; outline: none; text-transform: uppercase;
+    font-size: 13px; font-weight: 500; text-decoration-line: none;letter-spacing: 1px;
+}
+/*Button*/
+#btn{
+       display: inline-block;
+    color: #000;
+}
+#user{
+    background-color: #00b894;
+    color: white;
+}
+#his{
+    background-color: #00b894;
+    color: white;
+}
+#money{
+    background-color: #00b894;
+    color: white;
+}
+#btn a:hover{
+    background-color: white;
+    color:black;
+}
+
+/*footer     ////////////////////////////////////////////////////////////////*/
+footer{
+    background-color: black;
+}
+#foot{
+    color: white; align-content: center;text-align: center;
+}
+
+
+
+/*----------------------------------------------------------------------------------------------*/
